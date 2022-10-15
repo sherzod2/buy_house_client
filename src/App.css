@@ -1,0 +1,62 @@
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 100vh;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #182438;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  width: 1280px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header__page-controllers .active {
+  box-shadow: 0 0 5px rgb(1, 128, 255), 0 0 5px rgb(1, 128, 255),
+    0 0 5px rgb(1, 128, 255);
+  opacity: 0.8;
+}

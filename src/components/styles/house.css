@@ -1,0 +1,36 @@
+.house {
+  margin: 20px 0;
+}
+
+.house__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 20px;
+  min-height: 160px;
+  padding: 20px 20px 30px;
+}
+
+.select-wrapper {
+  text-align: center;
+}
+
+.select-title {
+  margin-bottom: 10px;
+  max-width: 250px;
+}
+
+.company {
+  display: flex;
+  padding: 9px 0px;
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  background-color: dodgerblue;
+  outline: none;
+  border-radius: 4px;
+  color: rgb(49, 37, 37);
+  width: 280px;
+}

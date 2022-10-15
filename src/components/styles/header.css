@@ -1,0 +1,49 @@
+.header {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 0.1px 10px -5px;
+  /* margin-bottom: 20px; */
+}
+
+.header__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  cursor: pointer;
+}
+
+.header__btn {
+  padding: 8px 16px;
+  background-color: rgb(1, 128, 255);
+  border: none;
+  border-radius: 4px;
+  margin: 0 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.header__btn:hover {
+  opacity: 0.6;
+}
+
+.header__btn:active {
+  opacity: 0.4;
+}
+
+.header__tel {
+  color: rgb(0, 128, 255);
+  text-decoration: none;
+}
+
+.header__tel:hover {
+  opacity: 0.8;
+}
+
+.header__logout {
+  background-color: red;
+}

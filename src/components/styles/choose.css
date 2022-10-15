@@ -1,0 +1,102 @@
+.choose__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px 100px;
+  margin-bottom: 20px;
+}
+
+.choose__company-name {
+  font-size: 20px;
+}
+
+.choose__complex-name {
+  font-size: 15px;
+  margin: 3px 0;
+}
+
+.choose__room-count {
+  font-size: 15px;
+  opacity: 0.7;
+  margin-bottom: 6px;
+}
+
+.choose__room-price {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.choose__room-area {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.choose__room-address {
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+.choose__body div {
+  text-align: center;
+}
+
+.choose_company-img {
+  max-width: 150px;
+  max-height: 150px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+/* --------------------------- */
+.choose__bank-name {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.choose__bank-updo {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.choose__bank-duration {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.choose__bank-start-payment {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+/* ---------------------------- */
+.choose__house-calc {
+  font-size: 20px;
+  margin-bottom: 8px;
+  margin-top: 60px;
+}
+.choose__house-price {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.choose__house-start-payment {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.choose__house-monthly-payment {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.choose__house-bank-service {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.choose__house-payment-duration {
+  font-weight: normal;
+  font-size: 16px;
+  opacity: 0.7;
+  margin-bottom: 8px;
+}

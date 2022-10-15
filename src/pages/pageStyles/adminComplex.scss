@@ -1,0 +1,221 @@
+.admin-complex {
+  background-color: #fff;
+}
+
+.newcomplex__form {
+  padding: 24px 51px 10px 50px;
+}
+
+/* student section title */
+.newcomplex__form--title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  color: #0061f7;
+}
+
+/* formning ichidagi label va inputlar */
+
+.newcomplex__form--data {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+}
+
+.newcomplex__form--data-box {
+  padding-right: 32px;
+  margin-bottom: 32px;
+}
+
+.newcomplex__course {
+  margin-top: 16px;
+  width: 320px;
+  height: 48px;
+  border-radius: 8px;
+  outline: none;
+  background-color: #fff;
+}
+
+.newcomplex__course option {
+  height: 100px;
+}
+
+.newcomplex__form--data-box label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.newcomplex__form--data-box input {
+  box-sizing: border-box;
+  margin-top: 10px;
+  width: 320px;
+  height: 40px;
+  left: 333px;
+  top: 224px;
+  outline: none;
+
+  background: #ffffff;
+  border: 1px solid rgba(47, 73, 209, 0.6);
+  border-radius: 8px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #000000;
+  padding: 0 10px;
+}
+
+.newstudent__course {
+  margin-top: 10px;
+  width: 320px;
+  height: 40px;
+  border-radius: 8px;
+  outline: none;
+  background-color: #fff;
+}
+
+.newstudent__course option {
+  height: 100px;
+}
+
+/* button */
+
+.newcomplex__form--btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.newcomplex__add-btn {
+  width: 314px;
+  height: 40px;
+  left: 1043px;
+  top: 424px;
+  border: none;
+  background-color: rgb(1, 128, 255);
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-right: -16px;
+  cursor: pointer;
+  margin-top: 0px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+// ---------------------------------------------------------------------------------------------
+.cards {
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 40px 0 15px 39px;
+  }
+
+  &__item {
+    width: 282px;
+    padding: 13px 15px 13px 18px;
+    box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 33px;
+    box-shadow: 0 0 5px rgb(180, 179, 179);
+
+    &-top {
+      padding: 18px 28px 18px 20px;
+      background-color: #f8fafd;
+      border-radius: 5px;
+      margin-bottom: 19px;
+    }
+
+    &-img {
+      width: 201px;
+      height: 202px;
+      border-radius: 5px;
+    }
+
+    &-infor {
+      padding-left: 3px;
+    }
+
+    &-title {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+      margin-bottom: 2px;
+    }
+
+    &-desc {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+      color: #000000;
+      opacity: 0.8;
+      margin: 5px 0 10px;
+    }
+
+    &-year {
+      margin-bottom: 10px;
+    }
+
+    &-buttons {
+      padding-left: 3px;
+    }
+
+    &-buttons-top {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5px;
+    }
+
+    &-read-btn {
+      display: inline-block;
+      text-decoration: none;
+      padding: 10px 0;
+      width: 100%;
+      text-align: center;
+      border-radius: 4px;
+      border: none;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: white;
+      background-color: rgb(226, 41, 41);
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.8;
+      }
+      &:active {
+        opacity: 0.6;
+      }
+    }
+  }
+}
+
+.not-found {
+  color: #2e3135;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+}
